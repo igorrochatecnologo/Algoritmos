@@ -1,0 +1,17 @@
+algoritmo "ParOuImparProcedimento"
+var
+   N: Inteiro
+   
+procedimento ParOuImpar (V: Inteiro)
+inicio
+      Se (V%2 = 0) entao
+         EscrevaL ("O numero ", V, " e PAR! ")
+      Senao
+         EscrevaL ("O numero ", V, " e IMPAR! ")
+      FimSe
+fimprocedimento
+inicio
+      Escreva ("Digite um numero: ")
+      Leia (N)
+      ParOuImpar (N)
+fimalgoritmo
